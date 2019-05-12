@@ -14,7 +14,7 @@ public class EventsForge {
 		ReturnBlockWSD returnBlock = ReturnBlockWSD.get(event.world);
 		if (returnBlock == null) return;
 		if (event.block instanceof BlockOre) {
-			returnBlock.returingReturnBlock(event.x, event.y, event.z, event.world.getTotalWorldTime() + 60L, event.block, event.blockMetadata);
+			returnBlock.returningReturnBlock(event.x, event.y, event.z, event.world.getTotalWorldTime() + 60L, event.block, event.blockMetadata);
 		}
 	}
 
