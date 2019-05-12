@@ -43,7 +43,7 @@ public class ReturnBlockWSD extends WorldSavedData {
 
 	}
 
-	public void removingReturnBlock(final int x, final int y, final int z, final long time, final Block block, final int metadata) {
+	public void returingReturnBlock(final int x, final int y, final int z, final long time, final Block block, final int metadata) {
 		int chunkX = x / 16;
 		int chunkZ = z / 16;
 		int i;
